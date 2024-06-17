@@ -24,16 +24,21 @@
 
 .col-width-33 {
     width: calc(100% / 3 - 20px);
-    border: 1px solid black;
-    height: 1200px;
+    border: 1px solid lightgray;
+    min-height: 1000px;
 }
 
 .column-box {
     min-height: 30px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    /* border: 1px solid black; */
-    padding-top: 20px;
+    padding: 15px 15px;
+}
+
+.horizontal-rule {
+    width: 50px;
+    margin: 30px;
+    border-color: lightgrey;
 }
 
 
@@ -43,7 +48,6 @@
 */
 
 .header-top {
-    /* background-color: red; */
     min-height: 80px;
     display: flex;
     align-items: center;
@@ -52,7 +56,6 @@
 
 .link-bar {
     width: 28%;
-    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,6 +120,8 @@
     MAIN
 */
 
+/* MAIN HEADER */
+
 .main-container:first-child {
     padding-top: 100px;
 }
@@ -128,4 +133,27 @@
     justify-content: space-between;
 }
 
+/* MAIN LAYOUT A COLONNE */
+
+.general-button {
+    display: flex;
+    justify-content: center;
+}
+
+.general-button .blue-button {
+    padding: 15px 50px;
+}
+
+.single-column-header {
+    border-bottom: 1px solid lightgray;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-name {
+    display: block;
+    padding: 10px;
+}
 

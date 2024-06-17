@@ -10,11 +10,16 @@
     color: lightgray;
 }
 
+.blue-icon {
+    color: #2682FF;
+    font-weight: bolder;
+}
+
 /* 
     BUTTONS LAYOUT
 */
 
-#blue-button {
+.blue-button {
     background-color: #0061FF;
     width: 70px;
     padding: 8px;
@@ -32,7 +37,7 @@
     TEXT FORMAT
 */
 
-.link-bar a,
+.link-bar a:not(.blue-button),
 .second-header-link a {
     text-decoration: none;
     color: black;
