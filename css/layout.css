@@ -1,0 +1,40 @@
+/* 
+    COLORS
+*/
+
+.lightblue-bg {
+    background-color: #B4D0E7;
+}
+
+.grey-color {
+    color: lightgray;
+}
+
+/* 
+    BUTTONS LAYOUT
+*/
+
+#blue-button {
+    background-color: #0061FF;
+    width: 70px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.column-box a {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* 
+    TEXT FORMAT
+*/
+
+.link-bar a,
+.second-header-link a {
+    text-decoration: none;
+    color: black;
+}
+
