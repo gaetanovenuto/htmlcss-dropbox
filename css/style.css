@@ -41,7 +41,16 @@
     border-color: lightgrey;
 }
 
+.icon-box {
+    display: block;
+    height: 20px;
+    padding-right: 5px;
+}
 
+.info-container {
+    display: flex;
+    justify-content: flex-start;
+}
 
 /* 
     HEADER
@@ -157,3 +166,7 @@
     padding: 10px;
 }
 
+.layout-type {
+    padding-left: 15px;
+    margin-left: 15px;
+}
