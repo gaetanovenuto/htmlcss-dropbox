@@ -47,12 +47,20 @@
     background-color: #FFD830;
 }
 
+.black-bg {
+    background-color: #000000;
+}
+
 .grey-color {
     color: lightgray;
 }
 
 .bordeaux-color {
     color: #600431;
+}
+
+.white-color {
+    color: #FFFFFF;
 }
 
 .blue-icon {
@@ -101,8 +109,22 @@
 .link-bar a:not(.blue-button),
 .second-header-link a,
 .text-container a,
-.partners-footer-container a {
+.partners-footer-container a,
+.footer-container a {
     text-decoration: none;
+}
+
+.link-bar a:not(.blue-button),
+.second-header-link a,
+.text-container a,
+.partners-footer-container a {
     color: black;
 }
 
+.footer-column-list a {
+    color: white;
+}
+
+.footer-column-list ul {
+    list-style-type: none;
+}

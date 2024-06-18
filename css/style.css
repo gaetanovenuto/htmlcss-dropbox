@@ -8,8 +8,8 @@
     padding: 75px 60px;
 }
 
-.container-width-60 {
-    max-width: 60%;
+.container-width-80 {
+    max-width: 80%;
     margin: 0 auto;
     padding: 75px 60px;
 }
@@ -362,4 +362,34 @@
 .partners-footer-container a {
     background-color: white;
     width: 250px;
+}
+
+/* FOOTER */
+
+.footer-container h2 {
+    padding: 40px 0;
+}
+
+.footer-container h4 {
+    padding: 30px 0;
+}
+
+.question-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.footer-ending-container .container-width-80 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column-list {
+    line-height: 35px;
 }
