@@ -247,22 +247,27 @@
     align-items: center;
 }
 
+.business-main-row:first-child {
+    margin-top: 25px;
+}
+
 .business-item-container {
-    margin-top: 30px;
     padding: 20px;
     width: calc(100% / 3)
 }
 
 .business-img-container {
-    min-height: 250px;
+    min-height: 200px;
 }
 
 .business-img-title {
-    min-height: 60px;
+    min-height: 50px;
 }
 
 .business-img-text {
-    min-height: 200px;
+    min-height: 150px;
+    padding-top: 15px;
+    max-width: 300px;
 }
 
 /* PARTNERS */
