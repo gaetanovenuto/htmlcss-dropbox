@@ -3,11 +3,56 @@
 */
 
 .lightblue-bg {
-    background-color: #B4D0E7;
+    background-color: #B4D0E7; 
+}
+
+.lightgreen-bg {
+    background-color: #D1E9CD;
+    padding: 15px;
+}
+
+.green-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2D39B;
+    height: 100%;
+}
+
+.bordeaux-bg {
+    background-color: #61082B;
+}
+
+.blue-bg {
+    background-color: #0093CE;
+}
+
+.orange-bg {
+    background-color: #FF1C1C;
+}
+
+.beige-bg {
+    background-color: #F5F5F5;
+}
+
+.red-bg {
+    background-color: #D5001F;
+}
+
+.darkblue-bg {
+    background-color: #0D2481;
+}
+
+.yellow-bg {
+    background-color: #FFD830;
 }
 
 .grey-color {
     color: lightgray;
+}
+
+.bordeaux-color {
+    color: #600431;
 }
 
 .blue-icon {
@@ -55,7 +100,8 @@
 
 .link-bar a:not(.blue-button),
 .second-header-link a,
-.text-container a {
+.text-container a,
+.partners-footer-container a {
     text-decoration: none;
     color: black;
 }

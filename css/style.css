@@ -35,7 +35,7 @@
     padding: 15px 15px;
 }
 
-.horizontal-rule {
+.column-container .horizontal-rule {
     width: 50px;
     margin: 30px;
     border-color: lightgrey;
@@ -269,4 +269,92 @@
 
 .partners-main-square {
     width: calc(100vw / 3)
+}
+
+.partners-main-container {
+    min-height: 800px;
+}
+
+.partners-header {
+    min-height: 300px;
+}
+
+.partners-header h2 {
+    min-height: 100px;
+    max-width: 400px;
+}
+
+.partners-header a {
+    min-height: 100px;
+}
+
+.partners-main {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-main-square {
+    height: calc(100vw / 3)
+}
+
+.square-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-minor-square {
+    height: calc(100vw / 6);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-minor-square img {
+    max-width: 50%;
+    filter: invert(99%) sepia(0%) saturate(172%) hue-rotate(227deg) brightness(115%) contrast(100%);
+}
+
+.partner-main-square-logo {
+    height: 200px;
+    padding: 50px;
+}
+
+.partner-main-square-logo img {
+    max-width: 50%;
+}
+
+.partners-main-square .horizontal-rule {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.partner-main-square-logo p {
+    padding-top: 100px;
+}
+
+.signature-firm {
+    display: block;
+    padding-top: 100px;
+}
+
+.partners-footer-container {
+    width: 100vw;
+    min-height: 200px;
+}
+
+.partners-footer-title {
+    width: 25%;
+}
+
+.partners-footer-container .container-width-75 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners-footer-container a {
+    background-color: white;
+    width: 250px;
 }
