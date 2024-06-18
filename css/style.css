@@ -153,7 +153,8 @@
     padding: 15px 50px;
 }
 
-.single-column-header {
+.column-container .single-column-header,
+.enterprise-layout .single-column-header {
     border-bottom: 1px solid lightgray;
     min-height: 40px;
     display: flex;
@@ -169,4 +170,103 @@
 .layout-type {
     padding-left: 15px;
     margin-left: 15px;
+}
+
+/* MAIN ENTERPRISE LAYOUT */
+
+.enterprise-layout {
+    border: 1px solid black;
+    margin-top: 50px;
+    min-height: 300px;
+    margin-bottom: 200px;
+}
+
+.enterprise-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.enterprise-main-header h3 {
+    padding-top: 20px;
+}
+
+.enterprise-footer {
+    width: 60%;
+    padding: 50px 30px;
+}
+
+/* PARTNER DROPBOX */
+
+.partnership-layout {
+    height: 500px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container {
+    width: 65%;
+}
+
+.img-container img {
+    max-width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    min-height: 80%;
+}
+
+.text-container a {
+    display: flex;
+}
+
+/* DROPBOX BUSINESS */
+
+.business-main-container {
+    min-height: 400px;
+    margin-top: 300px;
+}
+
+.business-header {
+    min-height: 60px;   
+}
+
+.business-main {
+    min-height: 400px;
+}
+
+.business-main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business-item-container {
+    margin-top: 30px;
+    padding: 20px;
+    width: calc(100% / 3)
+}
+
+.business-img-container {
+    min-height: 250px;
+}
+
+.business-img-title {
+    min-height: 60px;
+}
+
+.business-img-text {
+    min-height: 200px;
+}
+
+/* PARTNERS */
+
+.partners-main-square {
+    width: calc(100vw / 3)
 }

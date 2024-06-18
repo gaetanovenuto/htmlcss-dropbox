@@ -33,12 +33,29 @@
     margin: 0 auto;
 }
 
+.button-layout {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterprise-layout .button-layout {
+    width: 250px;
+}
+
+.black-border {
+    border: 1px solid black;
+}
+
 /* 
     TEXT FORMAT
 */
 
 .link-bar a:not(.blue-button),
-.second-header-link a {
+.second-header-link a,
+.text-container a {
     text-decoration: none;
     color: black;
 }
