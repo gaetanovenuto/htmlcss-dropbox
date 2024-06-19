@@ -1,5 +1,5 @@
 /* 
-    COLORS
+    BACKGROUND COLORS
 */
 
 .lightblue-bg {
@@ -51,6 +51,8 @@
     background-color: #000000;
 }
 
+/* FONT COLORS */
+
 .grey-color {
     color: lightgray;
 }
@@ -81,11 +83,6 @@
     text-decoration: none;
 }
 
-.column-box a {
-    width: 90%;
-    margin: 0 auto;
-}
-
 .button-layout {
     display: flex;
     width: 200px;
@@ -98,12 +95,16 @@
     width: 250px;
 }
 
-.black-border {
-    border: 1px solid black;
+/* 
+    LIST LAYOUT
+*/
+
+.footer-column-list ul {
+    list-style-type: none;
 }
 
 /* 
-    TEXT FORMAT
+    LINKS LAYOUT
 */
 
 .link-bar a:not(.blue-button),
@@ -125,6 +126,15 @@
     color: white;
 }
 
-.footer-column-list ul {
-    list-style-type: none;
+.column-box a {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* 
+    GENERAL STYLE
+*/
+
+.black-border {
+    border: 1px solid black;
 }

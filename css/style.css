@@ -1,5 +1,5 @@
 /* 
-    GENERAL
+    CONTAINERS
 */
 
 .container-width-75 {
@@ -21,7 +21,6 @@
     margin-top: 20px;
 }
 
-
 .col-width-33 {
     width: calc(100% / 3 - 20px);
     border: 1px solid lightgray;
@@ -41,16 +40,17 @@
     border-color: lightgrey;
 }
 
+.info-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .icon-box {
     display: block;
     height: 20px;
     padding-right: 5px;
 }
 
-.info-container {
-    display: flex;
-    justify-content: flex-start;
-}
 
 /* 
     HEADER
