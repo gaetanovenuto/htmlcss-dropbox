@@ -1,3 +1,7 @@
+/* 
+    DROP-DOWN MENU
+*/
+
 .header-top .link-bar li {
     list-style-type: none;
 }
@@ -16,30 +20,47 @@
 }
 
 .sub-menu { 
-        display: none;
-        position: absolute;
-        z-index: 1;
-        width: 150px;
-        min-height: 300px;
-        padding: 30px 15px;
-        margin: 0px 0 0 -5px;
-        background: white;  
-        border-radius: 10px; 
-        line-height: 25px; 
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    min-height: 300px;
+    padding: 30px 15px;
+    margin: 0px 0 0 -5px;
+    background: white;  
+    border-radius: 10px; 
+    line-height: 25px; 
         
-}
-
-.sub-menu li {
-    /* float: left; */
 }
 
 .horizontal-menu ul li:hover .sub-menu {
     display: block;
-    width: 800px;
-    transition: width 2s linear;
 }
 
 .sub-menu:hover .sub-menu {
     display: block;
 }
 
+/* 
+    ANSWERS BOX
+*/
+
+.question-box:hover {
+    cursor: pointer;
+}
+
+.answer-box {
+    width: 90%;
+    line-height: 25px;
+    height: 100px;
+    display: none;
+}
+
+.question-container:hover .answer-box {
+    display: block;
+    
+}
+
+.answer-box:hover .answer-box {
+    display: block;
+}
