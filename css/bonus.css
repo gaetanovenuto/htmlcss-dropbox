@@ -1,0 +1,30 @@
+.header-top .link-bar li {
+    list-style-type: none;
+}
+
+.horizontal-menu ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.sub-menu { 
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        min-height: 300px;
+        padding: 30px 20px;
+        margin: 15px 0 0 -50px;
+        background: white;  
+        border-radius: 10px; 
+        line-height: 25px; 
+}
+
+.sub-menu li {
+    float: left;
+}
+
+.horizontal-menu ul li:hover .sub-menu {
+    display: block;
+}
